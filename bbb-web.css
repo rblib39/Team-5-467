@@ -1,0 +1,86 @@
+/* background */
+.body {
+  background-image: url('chris-bair-A10y2Eq7OHY-unsplash.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: #fff;
+}
+
+/* navbar */
+.navbar-custom, .navbar {
+   background-color: Black;
+   color: #f0f0f0;
+   opacity: 0.8;
+}
+.navbar-custom .navbar-brand {
+   font-family: 'Norican', cursive;
+   font-size: 25pt;
+   color: #f0f0f0; 
+}
+
+.navbar-nav {
+   margin-left: auto;
+}
+
+.nav-item {
+   font-family: 'Plus Jakarta Sans', sans-serif; 
+   font-size: 14pt;
+   color: #f0f0f0;
+}
+
+/* Bedford Big Band */
+h1.hero-title {
+font-family: 'Norican', cursive;
+position: absolute;
+text-align: center;
+top: 40%;
+padding-left: 8%;
+font-style: normal;
+font-size: 150px;
+line-height: 130%;
+color: #FFFFFF;
+
+}
+.music-bckgrd {
+background-image: url('DSC_6619.jpg');
+padding-top: 50px;
+padding-bottom: 50px;
+width: 100%;
+}
+
+.bckgrd {
+    background-color: #435e89;       
+}
+.display-1 {
+font-family: 'Norican', cursive; 
+font-size: 75px;
+padding-top: 50px;
+padding-bottom: 50px;
+color: #f0f0f0;
+}
+
+.display-5 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #f0f0f0;
+  padding: 50px;
+  font-size: 35px;
+}
+
+h2.home {
+font-family: 'Plus Jakarta Sans', sans-serif;
+color: white;
+position: absolute;
+top: 63%;
+padding-left: 18%;
+text-align: center;
+}
+
+h2 {
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size: 25px;
+color: white;
+text-align: center;
+padding-bottom: 15px;
+}
+
