@@ -109,7 +109,10 @@ font-size: 80px;
 line-height: 130%;
 color: #FFFFFF;
 }
+.row {
+  padding: 50px;
 }
+
 .collapsible {
    background-color: #383434;
    color: white;
