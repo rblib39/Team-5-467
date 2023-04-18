@@ -52,51 +52,122 @@ $(document).ready(function(){
         <div id="div" class="container-fluid music-bckgrd col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <h1 class="display-1 text-center">About Us</h1>
         </div>
-        
         <div class="container-fluid bckgrd"> 
            <h6 class="display-5">Frequently Asked Questions</h6>
            <div class="h2">
            <p>We are a 19 piece Big Band with over 10 years experience performing at events ranging from casual to black tie. From outdoor concerts to elegant dinner dances, fund raisers, weddings and anniversary parties -- we do it all! We are fun and stylish and truly everyone loves Swing and Big Band music! Outfitted in tuxes and ball gowns or more casual if the event calls for it -- no matter what, we will remind everyone of the elegant and awesome bands of the 1930's and 40's. Our repertoire includes many of your favorite jazz and Big Band standards, Latin rhythms, waltzes, R&B, as well as some exciting contemporary arrangements that you're sure to enjoy.</p>
             </div>
-            <div class="row">
-                <button class="collapsible">How many members are in the Bedford Big Band?</button>
-                <div class="content">
-                    <p>A. The band is a “real” big band with saxophone, trombone, trumpet and rhythm sections with 4-5 players in each section. Including our vocals and conductor, we are a 19 piece group.</p>
-                </div><br>
-                <button class="collapsible">How much space does the band need?</button>
-                <div class="content">
-                    <p>A. We do best in a space about 20 feet wide by 20 feet deep so we can set up in a traditional Big Band style, but can accommodate other configurations or space constraints. We can be pretty creative about space! Though not necessary, we also love to use risers if the venue has them as this helps provide a beautiful and dramatic presentation of the band.</p>
-                </div><br>
-                <button class="collapsible">How does the band dress?</button>
-                <div class="content">
-                    <p>A. We want the audience to be wowed for your formal events and comfortable for more casual affairs, so we dress based on the occasion. For formal events, men wear black or white tuxedos and the vocalists wear ball gowns. For informal events we have fun uniformed shirts and vocalists wear outfits befitting the event and venue.</p>
-                </div><br>
-                <button class="collapsible">What kind of music does The Bedford Big Band play?</button>
-                <div class="content">
-                    <p>A. Our conductor develops our play lists based specifically on the venue and event. We also work with those who hire us to determine how we can best support the goals of the occasion. Although much of our repertoire is swing and big band jazz from the 1930s and 40's, we also do great Latin, Waltz, and Rhythm 'n Blues and even a few contemporary arrangements. We don't do polkas -- sorry! You can find music clips on this website and we encourage you to come see us live since there is nothing better than a live example of our music!</p>
-                </div><br>
-                <button class="collapsible">How much does it cost to hire the Bedford Big Band?</button>
-                <div class="content">
-                    <p>Our price is determined based on the length of the event, driving distance and other factors. We are really reasonable and have special rates for non-profit fund raisers. After a brief call to us to gather a few details, we can determine the price on the spot so you can make your decision.</p>
-                </div><br>
-                <button class="collapsible">What do I get for my money when hiring the Bedford Big Band?</button>
-                <div class="content">
-                    <p>First and foremost you get an exciting and beautiful Big Band that is unique and loved by people of all ages. The BBB has been doing this since 1998 and our band members have many years of combined experience. We love what we do and audiences truly love a live musical experience! Our pricing is truly reasonable and includes professional sound engineering and lighting appropriate to the event, so this is the real deal! If your event is open to the public, we can include advertisements of your event, list you on upcoming events on our website, facebook and on our phone line.</p>
-                </div><br>
-                <button class="collapsible">Why would I hire an expensive band versus a DJ?</button>
-                <div class="content">
-                    <p>First, you might find us cheaper than a DJ! Second, nothing can replace the sound of live music nor the experience of live entertainers. We are professionals who know how to engage your guests and make your event truly memorable. No chicken dances for us!</p>
-                </div><br>
-                <button class="collapsible">Isn't Big Band music kind of old-fashioned?</button>
-                <div class="content">
-                    <p>No way! All ages enjoy this music. Whether people are dancing to our up-tempo swing tunes, waltzing cheek-to-cheek, or burning up a tango, these are classics that never go out of style.</p>
-                </div><br>
-                <button class="collapsible">What kind of events do you play?</button>
-                <div class="content">
-                    <p>All of them! Seriously, we are experienced in all types of events and venues, so we have played at gala fundraisers, weddings, anniversary and company parties, community/town summer programs, indoor and outdoor venues and everything in between. We have done cool events in airport hangers and played at $500 a plate fundraisers, so we are as versatile as our music!</p>
-                </div><br>
-            </div>
-          </div>
+            <div class="accordion container-fluid bckgrd" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       How many members are in the Bedford Big Band?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. The band is a “real” big band with saxophone, trombone, trumpet and rhythm sections with 4-5 players in each section. Including our vocals and conductor, <strong>we are a 19 piece group.</strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        How much space does the band need?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. We do best in a space <strong>20 feet wide by 20 feet deep</strong> so we can set up in a traditional Big Band style, but can accommodate other configurations or space constraints. We can be pretty creative about space! Though not necessary, we also love to use risers if the venue has them as this helps provide a beautiful and dramatic presentation of the band.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        How does the band dress?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. We want the audience to be wowed for your formal events and comfortable for more casual affairs, so we dress based on the occasion. For formal events, men wear black or white tuxedos and the vocalists wear ball gowns. For informal events we have fun uniformed shirts and vocalists wear outfits befitting the event and venue.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        What kind of music does The Bedford Big Band play?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. Our conductor develops our play lists based specifically on the venue and event. We also work with those who hire us to determine how we can best support the goals of the occasion. Although much of our repertoire is swing and big band jazz from the 1930s and 40's, we also do great Latin, Waltz, and Rhythm 'n Blues and even a few contemporary arrangements. We don't do polkas -- sorry! You can find music clips on this website and we encourage you to come see us live since there is nothing better than a live example of our music!
+      </div>
+    </div>
+  </div>              
+ <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        How much does it cost to hire the Bedford Big Band?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. Our price is determined based on the length of the event, driving distance and other factors. We are really reasonable and have special rates for non-profit fund raisers. After a brief call to us to gather a few details, we can determine the price on the spot so you can make your decision.
+      </div>
+    </div>
+  </div> 
+   <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        What do I get for my money when hiring the Bedford Big Band?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. First and foremost, you get an exciting and beautiful Big Band that is unique and loved by people of all ages. The BBB has been doing this since 1998 and our band members have many years of combined experience. We love what we do and audiences truly love a live musical experience! Our pricing is truly reasonable and includes professional sound engineering and lighting appropriate to the event, so this is the real deal! If your event is open to the public, we can include advertisements of your event, list you on upcoming events on our website, Facebook and on our phone line.
+      </div>
+    </div>
+  </div>         
+ <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Why would I hire an expensive band versus a DJ?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. First, you might find us cheaper than a DJ! Second, nothing can replace the sound of live music nor the experience of live entertainers. We are professionals who know how to engage your guests and make your event truly memorable. No chicken dances for us!
+      </div>
+    </div>
+  </div>
+ <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       Isn't Big Band music kind of old-fashioned?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. No way! All ages enjoy this music. Whether people are dancing to our up-tempo swing tunes, waltzing cheek-to-cheek, or burning up a tango, these are classics that never go out of style.
+      </div>
+    </div>
+  </div>
+<div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       What kind of events do you play?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. All of them! Seriously, we are experienced in all types of events and venues, so we have played at gala fundraisers, weddings, anniversary and company parties, community/town summer programs, indoor and outdoor venues and everything in between. We have done cool events in airport hangers and played at $500 a plate fundraisers, so we are as versatile as our music!</p>
+      </div>
+    </div>
+  </div>
+</div>
+                
             <script>
                 var coll = document.getElementsByClassName("collapsible");
                 var i;
