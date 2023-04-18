@@ -138,18 +138,3 @@ color: #FFFFFF;
    padding: 50px;
    font-size: 14px;
  }
-
- .accordion-header {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-   color: #f0f0f0;
-   font-size: 20px;
-   text-align: center;
- }
-
- .accordion-body {
-  color: #435e89;
-  background-color: #f0f0f0;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 14px;
-  text-align: left;
- }
