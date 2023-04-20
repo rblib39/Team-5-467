@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Reggie Bourn" />
+        <meta name="author" content="Marian Toledo Candelaria" />
         <meta name=" description" content= "The Bedford Big Band is a nineteen-piece big band based in Bedford, NH. Our repertoire includes many favorite jazz and Big Band standards, Latin rhythms, waltzes, R&B, as well as some exciting contemporary arrangements.">
         <meta name="twitter:title" content="Bedford Big Band" />
         <meta property="og:url" content="http://www.bedfordbigband.com">
@@ -14,6 +14,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Norican&family=Plus+Jakarta+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 $(document).ready(function(){
   $("#div").hover(function(){
@@ -22,34 +23,35 @@ $(document).ready(function(){
 });
 </script>
     </head>
-    
-    <body>
-        <nav class="navbar navbar-custom navbar-dark navbar-expand-sm">
+    <body>  
+        <!-- New navbar -->
+        <nav class="navbar navbar-custom navbar-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="bbb-home.html">Bedford Big Band</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                 <ul class="navbar-nav">
-                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="aboutus.html">About Us</a>
-                     </li>
-                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="javascript:void(0)">Our Events</a>
-                    </li>
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="music.html">Our Music</a>
-                    </li>
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="javascript:void(0)">Get in Touch</a>
-                    </li>
-                </ul>
+                
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item navbar-text">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Our Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="music.html">Our Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Get in Touch</a>
+                        </li>    
+                    </ul>
+                </div>
             </div>
-          </div>
-        </nav>
-        
-        <div id="div" class="container-fluid music-bckgrd col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        </nav>     
+      
+        <div id="div" class="container-fluid music-bckgrd  col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-top:75px">
                 <h1 class="display-1 text-center">About Us</h1>
         </div>
         <div class="container-fluid bckgrd"> 
